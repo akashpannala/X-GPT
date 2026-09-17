@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# X-GPT training artifacts
+data_prepared/
+*.pt
