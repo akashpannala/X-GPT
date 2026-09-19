@@ -220,3 +220,4 @@ __marimo__/
 # X-GPT training artifacts
 data_prepared/
 *.pt
+*.zip
