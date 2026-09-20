@@ -16,3 +16,9 @@ python sample.py --prompt "Kural 1" --max_tokens 300
 
 Laptop here has no NVIDIA GPU (Intel iGPU only, torch CPU),
 so quick CPU smoke tests run local, real training runs on Colab GPU.
+
+## Latest run (Colab T4, 2026-09-18)
+
+`--preset colab` (6 layers, 192 embd, block 128), 5000 iters → val 1.38.
+Weights committed as `checkpoint.pt` / `best.pt`. Details + verbatim
+samples in `results/`.
